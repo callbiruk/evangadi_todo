@@ -64,5 +64,4 @@ router.delete('/:id', todoController.delete);
 router.get('/paginate', todoController.getAllInPagination);
 
 
-
 module.exports = router;
